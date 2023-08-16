@@ -15,6 +15,12 @@ Source codes implementation of papers:
 
 ## Usage
 
+
+### GDL conda
+```
+conda install -c "dglteam/label/cu113" dgl
+```
+
 ### Data processing
 1. Run `unzip /data/Amazon.zip` and `unzip /data/YelpChi.zip` to unzip the datasets; 
 2. Run `python feature_engineering/data_process.py
