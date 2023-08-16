@@ -15,10 +15,16 @@ Source codes implementation of papers:
 
 ## Usage
 
+### cuda 10.2
+```
+conda install -c nvidia cudatoolkit=10.2
+```
 
 ### GDL conda
 ```
-conda install -c "dglteam/label/cu113" dgl
+#conda install -c "dglteam/label/cu113" dgl
+
+#conda update dgl
 ```
 
 ### Data processing
